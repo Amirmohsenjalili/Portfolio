@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "name": "Amir Mohsen Jalili",
+    "title": "Amir Mohsen Jalili, Frontend Developer",
+    "description": "Frontend developer at Snapp Market in Tehran. Shopping interfaces, React, and TypeScript."
+  },
+  "nav": {
+    "work": "Work",
+    "about": "About",
+    "contact": "Contact",
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "close": "Close",
+    "primary": "Primary"
+  },
+  "theme": {
+    "label": "Switch color theme"
+  },
+  "home": {
+    "selected": "Selected work",
+    "allWork": "All work",
+    "practice": "How I work",
+    "skills": "Skills",
+    "view": "View"
+  },
+  "work": {
+    "title": "Work",
+    "intro": "The product I work on, and a few interfaces I built on my own.",
+    "back": "All work",
+    "context": "Context",
+    "role": "Role",
+    "constraints": "Constraints",
+    "decisions": "Decisions",
+    "outcome": "Outcome",
+    "stack": "Stack",
+    "github": "View on GitHub",
+    "kindWork": "Work",
+    "kindPersonal": "Personal"
+  },
+  "about": {
+    "title": "About",
+    "skills": "Skills"
+  },
+  "contact": {
+    "title": "Contact",
+    "lead": "Email or a call. Both reach me directly.",
+    "elsewhere": "Elsewhere"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "That path does not exist.",
+    "home": "Back home"
+  }
+}
