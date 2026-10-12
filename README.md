@@ -1,6 +1,6 @@
 # Portfolio
 
-Bilingual portfolio for Amir Mohsen Jalili, a frontend developer at Snapp Market in Tehran.
+Bilingual portfolio for Amir Mohsen Jalili, a senior software engineer at Snapp Market in Tehran.
 
 English is the default locale and has no prefix (`/`). Persian is at `/fa` and renders right to left. Light and dark themes follow the system preference and can be switched in the header.
 

@@ -2,11 +2,11 @@ import type { Locale } from "@/i18n/routing";
 
 export const profile = {
   name: { en: "Amir Mohsen Jalili", fa: "امیرمحسن جلیلی" },
-  role: { en: "Frontend Developer", fa: "توسعه‌دهنده‌ی فرانت‌اند" },
+  role: { en: "Senior Software Engineer", fa: "مهندس نرم‌افزار ارشد" },
   location: { en: "Tehran", fa: "تهران" },
   availability: {
-    en: "Frontend developer at Snapp Market.",
-    fa: "توسعه‌دهنده‌ی فرانت‌اند در اسنپ‌مارکت.",
+    en: "Senior software engineer at Snapp Market.",
+    fa: "مهندس نرم‌افزار ارشد در اسنپ‌مارکت.",
   },
   email: "amirmohsen.jalili2016@gmail.com",
   phone: {
@@ -21,17 +21,17 @@ export const profile = {
     },
   ],
   summary: {
-    en: "Frontend developer at Snapp Market in Tehran. I work on the shopping interface, and on keeping it clear as the product grows.",
-    fa: "توسعه‌دهنده‌ی فرانت‌اند در اسنپ‌مارکت، تهران. روی رابط خرید کار می‌کنم، و روی اینکه با بزرگ شدن محصول همچنان خوانا بماند.",
+    en: "Senior software engineer at Snapp Market in Tehran. I build the operations panel the grocery business runs on: vendors, inventory, and the requests in between.",
+    fa: "مهندس نرم‌افزار ارشد در اسنپ‌مارکت، تهران. پنل عملیاتی را می‌سازم که کسب‌وکار خواربار با آن کار می‌کند: فروشنده‌ها، موجودی، و درخواست‌های میان این دو.",
   },
   about: {
     en: [
-      "I am a frontend developer at Snapp Market in Tehran. I have been on the product since 2023.",
-      "Most of the work is the shopping interface: screens that have to stay clear on a phone, and code that the next change does not have to fight.",
+      "I am a senior software engineer at Snapp Market in Tehran. I have been on the operations panel since 2023.",
+      "The panel is where the market is run: chain stores and vendors, warehouses and products, purchase orders, transfers, and who is allowed to change them. Those screens stay in use while the next change ships.",
     ],
     fa: [
-      "توسعه‌دهنده‌ی فرانت‌اند در اسنپ‌مارکت هستم، در تهران، و از ۲۰۲۳ روی همین محصول کار می‌کنم.",
-      "بیشتر کار، رابط خرید است: صفحه‌هایی که روی موبایل باید خوانا بمانند، و کدی که تغییر بعدی مجبور نباشد با آن بجنگد.",
+      "مهندس نرم‌افزار ارشد در اسنپ‌مارکت هستم، در تهران، و از ۲۰۲۳ روی پنل عملیات همین محصول کار می‌کنم.",
+      "پنل جایی است که بازار از آنجا اداره می‌شود: فروشگاه‌های زنجیره‌ای و فروشنده‌ها، انبار و کالا، سفارش خرید، انتقال، و اینکه چه کسی اجازه‌ی تغییرشان را دارد. این صفحه‌ها در استفاده‌اند، در حالی که تغییر بعدی منتشر می‌شود.",
     ],
   },
 } satisfies {

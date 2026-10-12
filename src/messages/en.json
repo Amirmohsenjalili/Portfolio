@@ -1,8 +1,8 @@
 {
   "meta": {
     "name": "Amir Mohsen Jalili",
-    "title": "Amir Mohsen Jalili, Frontend Developer",
-    "description": "Frontend developer at Snapp Market in Tehran. Shopping interfaces, React, and TypeScript."
+    "title": "Amir Mohsen Jalili, Senior Software Engineer",
+    "description": "Senior software engineer at Snapp Market in Tehran. The operations panel, React, and TypeScript."
   },
   "nav": {
     "work": "Work",
@@ -33,6 +33,7 @@
     "decisions": "Decisions",
     "outcome": "Outcome",
     "stack": "Stack",
+    "competencies": "Technical competencies",
     "github": "View on GitHub",
     "kindWork": "Work",
     "kindPersonal": "Personal"

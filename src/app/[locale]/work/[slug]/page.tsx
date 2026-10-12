@@ -136,6 +136,30 @@ export default async function CaseStudyPage({
           <Section title={t("stack")}>
             <p className="text-ink-muted">{project.stack.join(" · ")}</p>
           </Section>
+          {project.competencies ? (
+            <Section title={t("competencies")}>
+              <ul className="flex flex-col">
+                {project.competencies.map((item) => {
+                  const emphasis = item.emphasis
+                    ? localize(item.emphasis, locale)
+                    : "";
+                  const level = item.level ? localize(item.level, locale) : "";
+                  const meta = [level, emphasis].filter(Boolean).join(" · ");
+                  return (
+                    <li
+                      key={item.name.en}
+                      className="flex items-baseline justify-between gap-4 border-t border-line py-3"
+                    >
+                      <span className="text-ink">{localize(item.name, locale)}</span>
+                      {meta ? (
+                        <span className="shrink-0 text-sm text-ink-muted">{meta}</span>
+                      ) : null}
+                    </li>
+                  );
+                })}
+              </ul>
+            </Section>
+          ) : null}
         </div>
       </article>
     </Container>
